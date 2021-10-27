@@ -74,8 +74,8 @@ const Home = () => {
     return (
         <div className="content-container">
             <div style={{flex:'row', padding:0, margin:0}}>
-                <div style={{display:'inline-block', marginRight:10}}>
-                    <input placeholder="Type Movie Name" type="text" onChange={searchMovie} style={{width:300, height:30}}/>
+                <div style={{display:'inline-block', marginRight:10, width:'100%'}}>
+                    <input placeholder="Type Movie Name" type="text" onChange={searchMovie} style={{width:'100%', maxWidth:'300px', height:30}}/>
                 </div>
             </div>
             {
